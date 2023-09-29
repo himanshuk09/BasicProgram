@@ -1,0 +1,20 @@
+
+my_string='himanshKu khade'
+print(my_string[0])
+#len()
+print(len(my_string))
+print(my_string[-1] )
+print(my_string[0:4] )
+#lower()
+print(my_string.lower() )
+#upper()
+print(my_string.upper() )
+#replace()
+print(my_string.replace('k','K'))
+#count()
+print(my_string.count("k") )
+#find()
+print(my_string.find('a'))
+fruit = 'I like apples, mangoes, bananas'
+#split()
+print(  fruit.split(','))

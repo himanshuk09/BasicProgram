@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>HIMU</title>
+<script type="text/javascript">
+
+function calculate()
+{
+   var a,b;
+   a=parseInt(document.f1.t1.value);
+   b=parseInt(document.f1.t2.value);
+   document.write("ADDITION IS ",a+b);
+     document.write(" &nbsp SUBSTRATION IS ",a-b);
+       document.write("MULTIPLECATION IS ",a*b); 
+        document.write("DIVISION IS ",a/b);
+}
+</script>
+</head>
+<form name="f1">
+<label>ENTER FIRST NUMBER</label><input type="text" name="t1"><br>
+<label>ENTER SECOND NUMBER</label><input type="text" name="t2"><br>
+<input type="button" name="b1" value="CALCULATE" onClick="calculate()">
+</form></html>

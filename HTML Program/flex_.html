@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Position</title>
+<style type="text/css">
+.flex-container,.flex
+{
+   border-radius:6px;
+}
+.flex-container
+{  
+   display:flex;/*block*/
+   flex-direction:column;
+   flex-wrap:nowrap;/*wrap,*/
+   background-color:whitesmoke;
+  
+
+
+.flex
+{  position:sticky;/*absolute relative fixed*/
+   background:#2db34a;
+   height:80px;
+   width:80px;
+   text-align:center;
+   margin:20px;
+ }
+ .box1
+ {
+    top:10px;
+   }
+   .boc2
+   { 
+     top:10px;/*left*/
+   
+   }
+   .box3
+   {
+    top:10px;/*right*/
+    }
+    .box4
+    {
+      bottom:10px;
+    
+    }
+</style>
+</head>
+<body>
+<div class="flex-container">
+<div class="flex box1">box1</div>
+<div class="flex box2">box2</div>
+<div class="flex box3">box3</div>
+<div class="flex box4">box4</div>
+</div>
+</body>
+</html>

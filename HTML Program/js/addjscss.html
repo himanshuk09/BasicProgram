@@ -1,0 +1,81 @@
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Orelega+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Zen+Dots&display=swap" rel="stylesheet">
+<style type="text/css">
+div{
+
+   //font-family:Original Surfer;
+   margin:15px 30px;
+   font-size:17px;
+   padding:8px;
+   font-family:Goblin One;
+   }
+
+
+header
+{
+   text-align:center;
+   text-style:bold;
+   color:Darkred;
+   background-color:silver;
+   font-family:New Tegomin;
+   font-size:25px;
+   border:5px solid  
+   black;
+   border-radius:5px;
+   text-decoration:underline;
+}
+.container
+{
+    background-color: LightSteelBlue;
+    padding:5px 20px 15px 20px;
+    border-radius:4px;
+    text-align:center;
+}
+#button
+{   font-family:Orelega One;
+    color:black;
+    background-color:gray;
+    padding:15px 20px 15px 20px;
+    margin:10px 130px;
+    text-style:italic;
+    border:5px solid snow;
+    text-align:center;
+    border-radius:15px;
+}
+#c,#answer
+{
+   font-family:Zen Dots;
+   text-align:center;
+}
+
+</style>
+<script>
+function add()
+{
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a + b;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
+<body>
+<header>ADDITION OF TWO NUMBER</header>
+<div class="container">
+Enter the First number : <input id="first"><br>
+Enter the Second number: <input id="second"><br><br>
+</div><center>
+<button id="button" onclick="add()">Add</button>
+</center>
+<center id="c"><br>ANSWER<br><input id="answer"></center>
+</body>
+</html>

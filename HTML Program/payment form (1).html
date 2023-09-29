@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+<title>
+
+</title>
+
+<style type="text/css">
+*{
+box-sizing:border-box;
+}
+body{
+
+   font-family:Original Surfer;
+   margin:15px 30px;
+   font-size:17px;
+   padding:8px;
+   }
+.container{
+background-color:gray;
+padding:5px 20px 15px 20px;
+border-radius:4px;
+
+}
+form{
+  width:100%;
+  padding:12px;
+  border:1px solid black;
+  border-radius:4px;
+
+}
+.p{ background-color:white;
+    border:1px solid #cccccc;
+   }
+h3{text-align:center;}
+input[type=submit],
+{
+     background-color:LightSkyBlue;
+     color:white;
+     padding:12px 20px;
+     border:none;
+     border-radius:4px;
+     cursur:pointer;
+     width:40%;
+}
+
+input[type="submit"]:hover{background-color:tomato}
+
+
+
+</style>
+</head>
+
+
+<body>
+<h1>PAYMENT FORM</h1>
+<div class="container">
+<form>
+<p>
+ 
+  NAME<input type="text" class="text" name="name" placeholder="Enter Name " width="10%" height="50%">
+<fieldset class="p">
+<legend>GENDER</legend>
+  <input type="radio" id="male" name="gender" value="male">
+  Male
+  <input type="radio" id="female" name="gender" value="female">
+  female<br>
+  </fieldset>
+ <p> ADDRESS
+ <textarea name="address" id="address"rows="8" cols="20" placeholder="Enter address">
+</textarea></p>
+<p>Email: <input type="email" name="email" id="email" placeholder="example@gmail.com"></p>
+</p>
+<p>
+Pincode<input type="number" id="pincode" name="pincode" placeholder="######"></p>
+<h2>Payment detail</h2>
+<p>Card Type:
+
+<select name="card_type" id="cardtype">
+<option value="">-----select card type----</option>
+<option value="visa">Visa</option>
+<option value="Rupay">Rupay</option>
+<option value="master">master</option>
+</select>
+<p>
+
+Card Number:<input type="number" name="card_number" id="card_number" placeholder="####  ####   ####">
+</p>
+<p>
+Expiration date:<input type="date" name="exp_date" id="exp_id">
+</p>
+<p>
+CVV:<input type="password" name="cvv" id="cvv" placeholder="123">
+</p>
+<p>
+<input type="submit" name="submit" value="PayNow">
+</p>
+</form>
+</div>
+
+
+
+</body>
+</html>

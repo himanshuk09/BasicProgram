@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dumping form data</h1>
+    <form action="phpform.php" method="post">
+        how old are you ?<input type="text" name="age" id="">
+        <br>
+        <br>
+        how many sibiling do you have ?<input type="text" name="number_sibling">
+        <br>
+        <br>
+        select your favorite ice cream flavor(s):
+        <select name="ice_cream[]" multiple>
+            <option value="">Vanilla</option>
+            <option value="">Chocolate</option>
+            <option value="">strawberry</option>
+            <option value="">Sardine</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

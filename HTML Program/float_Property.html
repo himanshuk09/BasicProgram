@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>float</title>
+<style type="text/css">
+ body
+ {
+    margin:0 auto;
+    max-width:900px;
+    width:90%;
+ }
+ 
+ #box
+  {   
+    /*clip-path: circle(50% at 50% 50%);*/
+    
+     float:Right;
+     margin:15px;
+     width:150px;
+     height:150px;
+     border-radius:5px;
+     border-color:black;
+     border-size:50px;
+     background-color:lightblue;
+     padding:1em;
+ }
+.special
+{
+    background-color:lightskyblue;
+    padding: 15px;
+    color:white;
+}
+#cleared
+{
+  clear:right;
+ }
+</style>
+</head>
+<body>
+<h1>Float Property</h1>
+<img id="box" src="data:image/jpeg;base64,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">
+<h1 class="special">Resume</h1>
+<p>A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</p>
+<p class="cleared">A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</p>
+<p>A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</p>
+
+</body>
+</html>
